@@ -1,0 +1,42 @@
+
+== FASE 1 ==
+
+ 
+* funcionalidad
+	- una versión para tablet
+	- advertir que se está ejecutando desde una tablet
+	- versión para tablet
+		- cambiar la advertencia de que se está ejecutando en una tablet ;)
+		- ajustar constantes relativas y no relativas.
+		
+	
+* QA
+	- al hacer tap (y que el gato baje) se empeora el rendimiento.
+
+	
+	
+
+== FASE 2 ==
+* tiburón
+	- hace solo una pasada y come todo lo que haya?
+	- dibujar tiburon comiendo y animar
+	- el tiburón se escapa de la pantalla por la derecha
+	- tiburon comiendose al gato
+	- tiburón come piraña
+	
+	
+- Si es una tablet, no solo advertir sino que redirigir al market y viceversa con la phone device
+- video promocional
+- el ganto al comer piraña en superguerrero que salga comiendo una piraña y no un pez
+- cuando esté en super guerrero poner otra música.
+- mejor aureola
+- ranking de puntuaciones en remoto
+- al comer un pez, o cae una espina al fondo del mar o sube una burbuja con forma de pez
+- aceleración
+- mejorar onPause / onResume
+- pantallas diferentes con obstaculos (por ej cuevas)
+- pirañas inteligentes
+- vibrar cuando te coma una piaña
+- sensibilidad de inclinación
+- olas en la superficie
+

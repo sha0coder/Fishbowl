@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:15
+-keep class com.fish.Fishbowl.FishbowlActivity { <init>(...); }
+
+# view res/layout/arena.xml #generated:24
+-keep class com.games.Base.SurfaceGame { <init>(...); }
+

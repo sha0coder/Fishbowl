@@ -1,0 +1,164 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+com.fish.Fishbowl.Bubble:
+    public static final int SPEED
+    public static final int SZ_SMALL
+    public static final int SZ_MEDIUM
+    public static final int SZ_BIG
+    58:58:public void onCollision(int)
+com.fish.Fishbowl.BuildConfig
+com.fish.Fishbowl.GameThread:
+    public static final int SCREEN_INIT
+    public static final int SCREEN_CALIBRATING
+    public static final int SCREEN_TUTORIAL_DOWN
+    public static final int SCREEN_TUTORIAL_LATERAL
+    public static final int SCREEN_TUTORIAL_OK
+    public static final int SCREEN_TUTORIAL_FISHES
+    public static final int SCREEN_GAME_READY
+    public static final int SCREEN_GAME
+    public static final int SCREEN_GAMEOVER
+    private static final int MSG_DURATION
+    private static final int MSG_NONE
+    private static final int SCHED_MSG_CALIBRATE
+    private static final int SCHED_MSG_TUTORIAL_DOWN
+    private static final int SCHED_MSG_TUTORIAL_EAT
+    private static final int SCHED_MSG_TUTORIAL_HELP
+    private static final int SCHED_MSG_INIT_GAME
+    public static final java.lang.String TOAST_CALIBRATE
+    public static final java.lang.String TOAST_TUTORIAL_DOWN
+    public static final java.lang.String TOAST_TUTORIAL_EAT1
+    public static final java.lang.String TOAST_TUTORIAL_EAT2
+    public static final java.lang.String TOAST_HELP
+    public static final java.lang.String TOAST_HELP2
+    public static final java.lang.String TOAST_GAME
+    public static final java.lang.String TOAST_EXIT
+    public static final int SCORE_PAYASO
+    public static final int SCORE_GLOBO
+    public static final int SCORE_GATO
+    public static final int SCORE_STAR
+    public static final int SCORE_PIRANHA
+    public static int BUTTON_Y
+    public static int BUTTON_X1
+    public static int BUTTON_X2
+    public static int BUTTON_SKIP_X
+    public static int BUTTON_SKIP_Y
+    public static final int PIRANHA_ENTROPY
+    public static final int SHARK_ENTROPY
+    private static final int PROBABILITY_NEW_PIRANHA
+    private static final int PROBABILITY_NEW_FISH
+    private static final int PROBABILITY_NEW_STAR
+    private static final int PROBABILITY_NEW_GLOBO
+    private static final int PROBABILITY_NEW_BUBBLE
+    private static final int PROBABILITY_NEW_SHARK
+    373:374:public void doToast(java.lang.String)
+com.fish.Fishbowl.Gato:
+    public static final int NADANDO
+    public static final int COMIENDO
+    public static final int COMIENDO_ROJO
+    public static final int AHOGANDOSE
+    public static final int MUERTO
+    public static final int SUPERGUERRERO_DURACION
+    147:178:public void setStatOld(int)
+    299:299:public boolean isComiendo()
+    303:303:public boolean isNadando()
+    320:320:public void onCollision(int)
+com.fish.Fishbowl.Logger
+com.fish.Fishbowl.MenuThread
+com.fish.Fishbowl.Pez:
+    public static final int FISH_PAYASO
+    public static final int FISH_GLOBO
+    public static final int FISH_STAR
+    public static final int DIR_LEFT
+    public static final int DIR_RIGHT
+    174:178:public void turn()
+    205:205:public void onCollision(int)
+com.fish.Fishbowl.Piranha:
+    private static final int NADANDO_R
+    private static final int NADANDO_L
+    private static final int COMIENDO_R
+    private static final int COMIENDO_L
+    148:148:public int getEstado()
+    202:202:private boolean isComiendo()
+    300:300:public void onCollision(int)
+com.fish.Fishbowl.R
+com.fish.Fishbowl.R$attr
+com.fish.Fishbowl.R$drawable
+com.fish.Fishbowl.R$id
+com.fish.Fishbowl.R$layout
+com.fish.Fishbowl.R$raw
+com.fish.Fishbowl.R$string
+com.fish.Fishbowl.Shark:
+    private static final int NADANDO_R
+    private static final int NADANDO_L
+    private static final int COMIENDO_R
+    private static final int COMIENDO_L
+    29:97:public Shark(android.content.Context,int,int)
+    100:100:public int getEstado()
+    149:150:public void doComer()
+    153:153:private boolean isComiendo()
+    246:247:public void onCollision(int)
+com.games.Base.BaseGameThread:
+    public abstract void pauseEngine()
+com.games.Base.Collisions:
+    public static final int COLLISION_MARGIN
+    public static final int SCREEN_BORDER
+    public static final int COLLISION_NONE
+    public static final int COLLISION_UP
+    public static final int COLLISION_DOWN
+    public static final int COLLISION_LEFT
+    public static final int COLLISION_RIGHT
+    public static final int COLLISION_UPLEFT
+    public static final int COLLISION_DOWNLEFT
+    public static final int COLLISION_UPRIGHT
+    public static final int COLLISION_DOWNRIGHT
+    public static final int COLLISION_MULTIPLE
+    11:11:public Collisions()
+    95:107:public static int colisionPlanoPlanos(com.games.Sprites.Sprite,java.util.Vector)
+    111:117:public static com.games.Sprites.Sprite whoIsHere(double,double,java.util.Vector)
+    121:131:public static int angle2quadrant(double)
+    136:143:public static double realAngle(double,double)
+com.games.Base.GameImage:
+    public abstract void selectBackground(int)
+    public abstract void loadBackgrounds()
+com.games.Base.GameSound:
+    protected abstract void load()
+com.games.Base.ImageGame
+com.games.Base.Physics:
+    9:9:public Physics()
+    21:28:public static android.graphics.drawable.Drawable rotateBMP(android.graphics.Bitmap,float)
+    32:52:public static android.graphics.drawable.Drawable shadowRotateBMP(android.graphics.Bitmap,float)
+    56:58:public static android.graphics.drawable.Drawable flipVBMP(android.graphics.Bitmap)
+    68:70:public static android.graphics.drawable.Drawable flipBMP(android.graphics.Bitmap)
+    80:80:public static double centerXToScreen(double,double)
+    84:84:public double centerYoScreen(double,double)
+com.games.Base.Scheduler
+com.games.Base.Sound:
+    31:32:public void setVolume(float,float)
+com.games.Sprites.Animation:
+    64:64:public boolean getLoop()
+    127:130:public void rotate(float)
+    134:137:public void flipV()
+    148:151:public void flipVH()
+    155:158:public void scale(int,int)
+com.games.Sprites.Pic:
+    31:31:public android.graphics.drawable.Drawable getDrawable()
+    43:44:public void rotate(float)
+    47:48:public void flipV()
+    51:52:public void flipH()
+    56:57:public void flipVH()
+    64:65:public void scale1()
+com.games.Sprites.Sprite:
+    protected android.content.Context ctx
+    54:56:public void goTo(double,double)
+    71:72:public void setAcceleration(float)
+    83:84:public void setDeceleration(float)
+    public abstract void doDraw(android.graphics.Canvas)
+    public abstract void onCollision(int)
+com.games.Sprites.Text:
+    public static final int TEXT_FIXED
+    public static final int TEXT_FAST
+    public static final int TEXT_SLOW
+    35:36:public void enable()
+    51:52:public void setDuration(int)
+    60:62:public void select(int)
+    65:66:public void setLines(int)
