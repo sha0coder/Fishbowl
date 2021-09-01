@@ -2,5 +2,4 @@ Fishbowl is an arcade Android game developed from scratch in Java, using the and
 
 
 ![Screenshot1](pics/promo.png)
-![Screenshot1](pics/high_res_icon.png)
 ![Screenshot1](pics/feature.png)
